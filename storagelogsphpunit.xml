@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\Users\a\Downloads\finalsch\scholl\phpunit.xml" tests="7" assertions="17" errors="0" failures="1" skipped="0" time="1.478517">
+    <testsuite name="Feature" tests="7" assertions="17" errors="0" failures="1" skipped="0" time="1.478517">
+      <testsuite name="Tests\Feature\AccountWebAuthTest" file="C:\Users\a\Downloads\finalsch\scholl\tests\Feature\AccountWebAuthTest.php" tests="2" assertions="7" errors="0" failures="0" skipped="0" time="0.907119">
+        <testcase name="login_page_renders" file="C:\Users\a\Downloads\finalsch\scholl\tests\Feature\AccountWebAuthTest.php" line="14" class="Tests\Feature\AccountWebAuthTest" classname="Tests.Feature.AccountWebAuthTest" assertions="2" time="0.742477"/>
+        <testcase name="can_login_via_web_and_logout" file="C:\Users\a\Downloads\finalsch\scholl\tests\Feature\AccountWebAuthTest.php" line="22" class="Tests\Feature\AccountWebAuthTest" classname="Tests.Feature.AccountWebAuthTest" assertions="5" time="0.164642"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\AttendanceFeatureTest" file="C:\Users\a\Downloads\finalsch\scholl\tests\Feature\AttendanceFeatureTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.021854">
+        <testcase name="teacher_can_open_mark_and_close_attendance_session" file="C:\Users\a\Downloads\finalsch\scholl\tests\Feature\AttendanceFeatureTest.php" line="13" class="Tests\Feature\AttendanceFeatureTest" classname="Tests.Feature.AttendanceFeatureTest" assertions="1" time="0.021854"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\AttendanceTest" file="C:\Users\a\Downloads\finalsch\scholl\tests\Feature\AttendanceTest.php" tests="1" assertions="6" errors="0" failures="0" skipped="0" time="0.128640">
+        <testcase name="teacher_opens_marks_and_closes_session_creating_grade" file="C:\Users\a\Downloads\finalsch\scholl\tests\Feature\AttendanceTest.php" line="14" class="Tests\Feature\AttendanceTest" classname="Tests.Feature.AttendanceTest" assertions="6" time="0.128640"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\AuthTest" file="C:\Users\a\Downloads\finalsch\scholl\tests\Feature\AuthTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.280533">
+        <testcase name="can_login_with_seeded_admin" file="C:\Users\a\Downloads\finalsch\scholl\tests\Feature\AuthTest.php" line="12" class="Tests\Feature\AuthTest" classname="Tests.Feature.AuthTest" assertions="1" time="0.028702"/>
+        <testcase name="invalid_credentials_get_401" file="C:\Users\a\Downloads\finalsch\scholl\tests\Feature\AuthTest.php" line="26" class="Tests\Feature\AuthTest" classname="Tests.Feature.AuthTest" assertions="1" time="0.251831"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\Authorization\PortalMatrixTest" file="C:\Users\a\Downloads\finalsch\scholl\tests\Feature\Authorization\PortalMatrixTest.php" tests="1" assertions="1" errors="0" failures="1" skipped="0" time="0.140371">
+        <testcase name="test_teacher_can_access_portal_guru_home" file="C:\Users\a\Downloads\finalsch\scholl\tests\Feature\Authorization\PortalMatrixTest.php" line="12" class="Tests\Feature\Authorization\PortalMatrixTest" classname="Tests.Feature.Authorization.PortalMatrixTest" assertions="1" time="0.140371">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\Authorization\PortalMatrixTest::test_teacher_can_access_portal_guru_home&#13;
+Expected response status code [200] but received 403.
+Failed asserting that 403 is identical to 200.
+&#13;
+C:\Users\a\Downloads\finalsch\scholl\vendor\laravel\framework\src\Illuminate\Testing\TestResponseAssert.php:45
+C:\Users\a\Downloads\finalsch\scholl\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:160
+C:\Users\a\Downloads\finalsch\scholl\tests\Feature\Authorization\PortalMatrixTest.php:16</failure>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
